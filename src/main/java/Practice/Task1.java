@@ -2,7 +2,7 @@ package Practice;
 
 public class Task1 {
     public static void main(String[] args) {
-        int message = 1234;
+        String message = "20Ivan";
         System.out.println(message);
     }
 }
