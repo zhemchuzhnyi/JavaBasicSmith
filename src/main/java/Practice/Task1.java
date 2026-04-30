@@ -10,6 +10,5 @@ public class Task1 {
         System.out.println(name2);
         System.out.println(num1);
         System.out.println(num2);
-
     }
 }
