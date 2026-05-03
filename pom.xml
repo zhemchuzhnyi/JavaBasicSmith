@@ -14,4 +14,43 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <!-- Плагин компиляции (использует ваши свойства source/target) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+
+            <!-- Плагин для чистого запуска через mvn exec:java -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>Practice.InputOutput</mainClass>
+                    <!-- Если вашей программе нужны аргументы командной строки,
+                         раскомментируйте и пропишите:
+                    <arguments>
+                        <argument>arg1</argument>
+                        <argument>arg2</argument>
+                    </arguments>
+                    -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

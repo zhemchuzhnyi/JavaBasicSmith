@@ -1,16 +1,23 @@
 package Practice;
 
-public class InputOutput {
-    public static void main(String[] args) {
-        int num1 = 5;
-        int num2 = 3;
-        int result = num1 + num2;
-        System.out.println(result);
-
-
 /*
 Получение информации из консоли
  */
 
+import java.util.Scanner;
+
+public class InputOutput {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter your name: ");
+        String name = scanner.nextLine();
+
+        System.out.println("Enter your age: ");
+        int age = scanner.nextInt();
+
+        System.out.println("Hello, " + name + "! You are " + age + " years old.");
+
+        scanner.close();
     }
 }
