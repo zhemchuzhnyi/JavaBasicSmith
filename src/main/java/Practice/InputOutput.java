@@ -6,5 +6,11 @@ public class InputOutput {
         int num2 = 3;
         int result = num1 + num2;
         System.out.println(result);
+
+
+/*
+Получение информации из консоли
+ */
+
     }
 }
