@@ -12,9 +12,8 @@ public class Task5 {
         int b = 5;
         int c = 9;
 
-        int d = Math.max(a, b);
-        int v = Math.min(a, c);
+        int d = Math.max(Math.max(a, b),c);
+
         System.out.println(d);
-        System.out.println(v);
     }
 }
