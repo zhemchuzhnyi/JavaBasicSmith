@@ -9,5 +9,4 @@ public class Task8 {
         int sec = days * 24 * 60 * 60;
         System.out.println(sec);
     }
-
 }
