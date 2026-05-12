@@ -10,7 +10,8 @@ public class Task10 {
         char first = word1.charAt(0);
         char second = word1.charAt(5);
 
-        System.out.println(first + second);
+        System.out.println(first);
+        System.out.println(second);
 
 
     }
