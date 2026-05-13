@@ -10,6 +10,5 @@ public class Task13 {
         int result = 2026 - year;
         String message = String.format("Фильму %s в 2026 году исполнится %d", name, result);
         System.out.println(message);
-
     }
 }
