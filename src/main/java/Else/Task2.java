@@ -7,9 +7,9 @@ public class Task2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your city");
 
-        String message = sc.nextLine();
+        String answer = sc.nextLine();
 
-        if (message == "Phuket") {
+        if (answer.equals("Phuket")) {
             System.out.println("ola la youre from Phuket!!!");
         } else {
             System.out.println("Where is this city?");
