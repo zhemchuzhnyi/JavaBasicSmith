@@ -9,7 +9,7 @@ public class Task2 {
 
         String answer = sc.nextLine();
 
-        if (answer.equals("Phuket")) {
+        if (answer.equalsIgnoreCase("Phuket")) {
             System.out.println("ola la youre from Phuket!!!");
         } else {
             System.out.println("Where is this city?");
