@@ -12,7 +12,7 @@ public class Task2 {
         if (message == "Phuket") {
             System.out.println("ola la tour from Phuket!!!");
         } else {
-            System.out.println("Where are you from?");
+            System.out.println("Where is this city?");
         }
     }
 }
