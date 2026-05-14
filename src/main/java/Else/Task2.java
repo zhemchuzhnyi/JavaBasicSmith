@@ -10,7 +10,7 @@ public class Task2 {
         String message = sc.nextLine();
 
         if (message == "Phuket") {
-            System.out.println("ola la tour from Phuket!!!");
+            System.out.println("ola la youre from Phuket!!!");
         } else {
             System.out.println("Where is this city?");
         }
