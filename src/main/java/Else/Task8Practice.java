@@ -8,12 +8,10 @@ public class Task8Practice {
         String login = sc.nextLine();
         String password = sc.nextLine();
 
-        if (login.equals("Admin")) {
-            if (password.equals("qwer1234")) {
-                System.out.println("Welcome Admin!");
-            } else {
-                System.out.println("Error! Try again!");
-            }
+        if (login.equals("Admin") && password.equals("qwer1234")) {
+            System.out.println("Welcome Admin!");
+        } else {
+            System.out.println("Error! Try again!");
         }
     }
 }
