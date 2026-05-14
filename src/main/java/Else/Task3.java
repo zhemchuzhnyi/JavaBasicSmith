@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("How old are you?");
+        System.out.println("What is youre favorite number?");
 
         int number = sc.nextInt();
 
-        if (number == 25) {
-            System.out.println("Youre 25 years old!");
+        if (number == 9) {
+            System.out.println("Perfect choise!");
         } else {
-            System.out.println("");
+            System.out.println("Good!");
         }
     }
 }
