@@ -10,7 +10,7 @@ public class Task6Practice {
         int k = (n + m);
 
         if (k > 160) {
-            System.out.println("Поступил");
+            System.out.println("Красава, ты Поступил!");
         } else {
             System.out.println("УВЫ...");
         }
