@@ -12,7 +12,6 @@ public class Task8Practice {
             System.out.println("Welcome Admin!");
         } else {
             System.out.println("Error! Try again!");
-
         }
     }
 }
