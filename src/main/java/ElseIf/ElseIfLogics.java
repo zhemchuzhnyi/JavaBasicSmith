@@ -8,7 +8,7 @@ public class ElseIfLogics {
         Scanner sc = new Scanner(System.in);
         String day = sc.nextLine();
 
-        if (day.equals("Saturday") || day.equals("Sunday")) {
+        if (day.equals("Saturday") || day.equals("Sunday")) {  // или
             System.out.println("You can sleep");
         } else {
             System.out.println("You can go to work! SORRY!!");
