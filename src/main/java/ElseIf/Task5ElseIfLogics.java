@@ -2,7 +2,7 @@ package ElseIf;
 
 import java.util.Scanner;
 
-public class ElseIfLogics {
+public class Task5ElseIfLogics {
     public static void main(String[] args) {
         System.out.println("Enter the day of the week: ");
         Scanner sc = new Scanner(System.in);
