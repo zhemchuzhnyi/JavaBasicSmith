@@ -7,6 +7,7 @@ public class Task3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Yes or Not=: ");
         String answer = sc.nextLine();
+
         if (answer.equals("Yes")) {
             System.out.println("Yes? or maybe No?: ");
             String answer1 = sc.nextLine();
