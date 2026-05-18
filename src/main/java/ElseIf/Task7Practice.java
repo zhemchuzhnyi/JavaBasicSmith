@@ -9,7 +9,7 @@ public class Task7Practice {
 
         if (num < 18) {
             System.out.println("Early");
-        } else if (num >= 18 || num >= 28 ) {
+        } else if (num >= 18 & num <= 28 ) {
             System.out.println("Coming");
         } else {
             System.out.println("Late");
