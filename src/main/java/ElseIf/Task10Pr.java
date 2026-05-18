@@ -8,7 +8,7 @@ public class Task10Pr {
         String word = sc.nextLine();
         String word1 = sc.nextLine();
 
-        if (word.equalsIgnoreCase("Good") && word1.equalsIgnoreCase("Good")) {
+        if (word.equalsIgnoreCase("Good") || word1.equalsIgnoreCase("Good")) {
             System.out.println("Good");
         } else {
             System.out.println("Bad");
