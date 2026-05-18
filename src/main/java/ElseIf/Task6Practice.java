@@ -8,14 +8,12 @@ public class Task6Practice {
         int num = sc.nextInt();
 
         if (num > 0) {
-            System.out.println("Positive"); {
-                if (num == 0) {
-                    System.out.println("Zero");
-                }
-            }
+            System.out.println("Positive");
+        } else if (num == 0) {
+            System.out.println("Zero");
         } else {
             System.out.println("Negative");
-        }
+            }
 
+        }
     }
-}
