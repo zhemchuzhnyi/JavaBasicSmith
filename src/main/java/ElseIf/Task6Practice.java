@@ -13,7 +13,7 @@ public class Task6Practice {
             System.out.println("Zero");
         } else {
             System.out.println("Negative");
-            }
-
         }
+
     }
+}
