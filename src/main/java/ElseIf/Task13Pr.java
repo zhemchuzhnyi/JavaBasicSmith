@@ -17,7 +17,6 @@ public class Task13Pr {
             min = b;
         } else {
             min = c;
-
         }
 
         if (a >= b && a >= c) {
