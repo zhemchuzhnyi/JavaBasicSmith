@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Task13Pr {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double a = sc.nextInt();
-        double b = sc.nextInt();
-        double c = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
-        double min, max;
+        int min, max;
 
         if (a <= b && a <= c) {
             min = a;
