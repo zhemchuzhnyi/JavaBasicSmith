@@ -14,10 +14,10 @@ public class Task14Pr {
         if (a > 10) {
             System.out.println(a);
             found = true;
-        }  else if (b > 10) {
+        } if (b > 10) {
             System.out.println(b);
             found = true;
-        } else if (c > 10) {
+        } if (c > 10) {
             System.out.println(c);
             found = true;
         }
