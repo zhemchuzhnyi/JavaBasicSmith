@@ -9,5 +9,20 @@ public class Task14Pr {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
+        boolean found = false;
+
+        if (a > 10) {
+            System.out.println(a);
+            found = true;
+        }  else if (b > 10) {
+            System.out.println(b);
+            found = true;
+        } else if (c > 10) {
+            System.out.println(c);
+            found = true;
+        }
+        if (!found) {
+            System.out.println("Нет ни одного числа");
+        }
     }
 }
