@@ -13,5 +13,6 @@ public class TryCatchPractice {
 
         int result = num1/num2;
         System.out.println("Result: " + result);
+
     }
 }
