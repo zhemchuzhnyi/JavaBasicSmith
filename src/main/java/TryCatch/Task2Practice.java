@@ -9,9 +9,9 @@ public class Task2Practice {
         System.out.println("Enter the number: from 1 to 3");
 
         try {
-            int num = Integer.parseInt(input);
+            int num = Integer.parseInt(input.trim());
 
-            if (num >= 1 || num >= 3) {
+            if (num >= 1 || num <= 3) {
                 System.out.println(num);
             } else {
                 System.out.println("Некорректный ввод");
