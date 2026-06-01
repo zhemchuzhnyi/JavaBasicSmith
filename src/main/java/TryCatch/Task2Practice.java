@@ -11,7 +11,7 @@ public class Task2Practice {
         try {
             int num = Integer.parseInt(input);
 
-            if (num < 1 || num > 3) {
+            if (num >= 1 || num >= 3) {
                 System.out.println(num);
             } else {
                 System.out.println("Некорректный ввод");
