@@ -11,8 +11,12 @@ public class TryCatchPractice {
         System.out.println("Enter second number: ");
         int num2 = sc.nextInt();
 
-        int result = num1/num2;
-        System.out.println("Result: " + result);
+        try {
+            int result = num1/num2;
+            System.out.println("Result: " + result);
+        }  catch (ArithmeticException e) {
+            System.out.println("Division by zero");
+        }
 
     }
 }
