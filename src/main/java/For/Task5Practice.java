@@ -10,7 +10,7 @@ public class Task5Practice {
         boolean found = false;
 
         for (int i = 1; i <= n; i++) {
-            if (i % 2 == 0 && i % 4 ==0) {
+            if (i % 4 ==0) {
             System.out.println(i);
             found = true;
             }
