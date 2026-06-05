@@ -18,6 +18,5 @@ public class Task5Practice {
         if (!found) {
             System.out.println("Error");
         }
-
     }
 }
