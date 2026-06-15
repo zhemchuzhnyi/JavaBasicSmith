@@ -18,10 +18,9 @@ public class Lection2 {
             } else {
                 System.out.println("No user with this login exists");
             }
+        boolean passwordCorrect = false;
 
-            boolean passwordCorrect = false;
-
-            while (!passwordCorrect) {
+        while (!passwordCorrect) {
                 System.out.println("Enter password: ");
                 String inputPassword = sc.nextLine();
 
