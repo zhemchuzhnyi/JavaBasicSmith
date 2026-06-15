@@ -29,7 +29,7 @@ public class Lection2 {
                 System.out.println("Welcome");
             } else {
                 System.out.println("Incorrect password, please try again");
-                }
             }
         }
     }
+}
