@@ -21,6 +21,7 @@ public class Lection2 {
 
             if (inputPassword.equals(correctPassword)) {
                 System.out.println("Welcome " + inputLogin);
+                break;
             } else {
                 System.out.println("Incorrect password, please try again");
             }
