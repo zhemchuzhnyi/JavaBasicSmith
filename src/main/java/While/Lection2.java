@@ -7,23 +7,30 @@ public class Lection2 {
         Scanner sc = new Scanner(System.in);
         String correctLogin = "Ivan";
         String correctPassword = "qwer123";
+        boolean loginCorrect = false;
 
-        while (true) {
+        while (!loginCorrect) {
             System.out.println("Enter login: ");
             String inputLogin = sc.nextLine();
 
-            if (!inputLogin.equals(correctLogin)) {
-                System.out.println("No user with this login exists");
-                continue;
-            }
-            System.out.println("Enter password: ");
-            String inputPassword = sc.nextLine();
-
-            if (inputPassword.equals(correctPassword)) {
-                System.out.println("Welcome " + inputLogin);
-                break;
+            if (inputLogin.equals(correctLogin)) {
+                loginCorrect = true;
             } else {
-                System.out.println("Incorrect password, please try again");
+                System.out.println("No user with this login exists");
+            }
+
+            boolean passwordCorrect = false;
+
+            while (!passwordCorrect) {
+                System.out.println("Enter password: ");
+                String inputPassword = sc.nextLine();
+
+                if (inputPassword.equals(correctPassword)) {
+                    passwordCorrect = true;
+                    System.out.println("Welcome " + inputLogin);
+                } else {
+                    System.out.println("Incorrect password, please try again");
+                }
             }
         }
     }
