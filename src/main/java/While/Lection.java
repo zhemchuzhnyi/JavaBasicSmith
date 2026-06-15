@@ -16,7 +16,6 @@ public class Lection {
             } else {
                 System.out.println("Sorry, enter again " + name);
             }
-            sc.close();
         }
     }
 }
