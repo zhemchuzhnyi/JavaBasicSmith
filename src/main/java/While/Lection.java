@@ -11,7 +11,7 @@ public class Lection {
             System.out.println("What is your name?");
             name = sc.nextLine();
 
-            if(!name.equals("Ivan")) {
+            if(name.equals("Ivan")) {
                 System.out.println("Hello, " + name);
             } else {
                 System.out.println("Sorry, enter again " + name);
