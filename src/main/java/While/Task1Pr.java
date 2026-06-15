@@ -1,11 +1,12 @@
 package While;
 
-import java.util.Scanner;
-
 public class Task1Pr {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-
+        int count = 10;
+        while (true) {
+            System.out.println("Iteration: " + count);
+            if (count == 1) break;
+            count--;
+        }
     }
 }
