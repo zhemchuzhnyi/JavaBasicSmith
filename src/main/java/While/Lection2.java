@@ -21,14 +21,14 @@ public class Lection2 {
         boolean passwordCorrect = false;
 
         while (!passwordCorrect) {
-                System.out.println("Enter password: ");
-                String inputPassword = sc.nextLine();
+            System.out.println("Enter password: ");
+            String inputPassword = sc.nextLine();
 
-                if (inputPassword.equals(correctPassword)) {
-                    passwordCorrect = true;
-                    System.out.println("Welcome " + inputLogin);
-                } else {
-                    System.out.println("Incorrect password, please try again");
+            if (inputPassword.equals(correctPassword)) {
+                passwordCorrect = true;
+                System.out.println("Welcome " + inputLogin);
+            } else {
+                System.out.println("Incorrect password, please try again");
                 }
             }
         }
