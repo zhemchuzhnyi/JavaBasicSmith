@@ -7,7 +7,6 @@ public class Task1Pr {
             System.out.println("Iteration: " + count);
             if (count == 1) break;
             count--;
-
         }
     }
 }
