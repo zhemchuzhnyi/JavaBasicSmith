@@ -15,6 +15,9 @@ public class Task2Pr {
         }
 
         int sum = 0;
+        int current = start;
+
+
 
 
 
