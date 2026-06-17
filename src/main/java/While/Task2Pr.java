@@ -8,6 +8,15 @@ public class Task2Pr {
         int start = sc.nextInt();
         int finish = sc.nextInt();
 
+        if (start > finish) {
+            int temp = start;
+            start = finish;
+            finish = temp;
+        }
+
+        int sum = 0;
+
+
 
     }
 }
