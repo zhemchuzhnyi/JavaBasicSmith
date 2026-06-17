@@ -22,10 +22,5 @@ public class Task2Pr {
             current++;
         }
         System.out.println(sum);
-
-
-
-
-
     }
 }
