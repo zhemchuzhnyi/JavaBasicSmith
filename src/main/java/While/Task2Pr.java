@@ -17,6 +17,12 @@ public class Task2Pr {
         int sum = 0;
         int current = start;
 
+        while (current <= finish) {
+            sum += current;
+            current++;
+        }
+        System.out.println(sum);
+
 
 
 
