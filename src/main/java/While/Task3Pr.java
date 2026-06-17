@@ -1,13 +1,18 @@
 package While;
 
-import java.util.Scanner;
-
 public class Task3Pr {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int count = 0;
 
-        String greet = sc.nextLine();
-        String word = sc.nextLine();
+        while (count < 5) {
+            System.out.println("Hello, World");
+            count++;
+        }
 
+        count = 0;
+        while (count < 7) {
+            System.out.println("Привет, Мир");
+            count++;
+        }
     }
 }
