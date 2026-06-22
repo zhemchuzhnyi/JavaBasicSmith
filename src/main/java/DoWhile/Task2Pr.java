@@ -16,5 +16,6 @@ public class Task2Pr {
             } while (num <= n);
         }
         System.out.println(sum);
+
     }
 }
