@@ -1,5 +1,6 @@
 package WorkWithFile;
 
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -13,12 +14,20 @@ public class Task1 {
 //            e.printStackTrace();
 //        }
 
-        try (FileReader reader = new FileReader("src/file.txt")) {
-            char[] buffer = new char[1024];
-            int length = reader.read(buffer);
-            for (int i = 0; i < length; i++) {
-                System.out.print(buffer[i]);
-            }
+//        try (FileReader reader = new FileReader("src/file.txt")) {
+//            char[] buffer = new char[100];
+//            int length = reader.read(buffer);
+//            for (int i = 0; i < length; i++) {
+//                System.out.print(buffer[i]);
+//            }
+//        }catch (IOException e) {
+//            System.out.println("Error");
+//            e.printStackTrace();
+//        }
+
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/file.txt"))) {
+            String line = reader.readLine();
+            System.out.println(line);
         }catch (IOException e) {
             System.out.println("Error");
             e.printStackTrace();
