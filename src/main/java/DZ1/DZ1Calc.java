@@ -64,7 +64,6 @@ public class DZ1Calc {
             } while (true); // Бесконечный цикл, выход через break
 
             scanner.close();
-
         }
     }
 
